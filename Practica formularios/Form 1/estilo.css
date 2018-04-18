@@ -1,0 +1,78 @@
+.contenedor
+{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    top:50px;
+    font-family: "Calibri";
+}
+.formulario
+{
+    width: 100%;
+    width: 100%;
+}
+h1
+{
+    font-size: 16px;
+}
+h1 em
+{
+    color: red;
+}
+input
+{
+    height: 25px;
+}
+.name
+{
+    width: 45%;
+    transition-property: border;
+    transition-duration: 0.5s;
+    
+}
+.name:focus
+{
+    border-color: #ff0000;
+}
+.email
+{
+    width: 92%;
+    transition-property: border padding;
+    transition-duration: 0.5s;
+}
+.email:focus
+{
+    border-color: #ff0000;
+}
+.seleccionar
+{
+    width: 93%;
+    height: 30px;
+    background-color: #ddd;
+    transition-property: border padding;
+    transition-duration: 0.5s;
+}
+.seleccionar:focus
+{
+    border-color: #ff0000;
+}
+option
+{
+    margin: 5px !important;
+    min-height: 1.4em;
+}
+textarea:focus
+{
+    border-color: #ff0000;
+}
+.enviar
+{
+    color: #fff;
+    background-color: #5073aa;
+    width: 90px;
+    height: 40px;
+    padding: 5px;
+    border-style: none;
+    margin-top: 10px;
+}
